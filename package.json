@@ -38,5 +38,19 @@
   "bugs": {
     "url": "https://github.com/nvharish/microswagger/issues"
   },
-  "homepage": "https://github.com/nvharish/microswagger#readme"
+  "homepage": "https://github.com/nvharish/microswagger#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "js-yaml": "^4.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "morgan": "^1.10.0",
+    "node-jose": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "eslint": "^9.20.1",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9"
+  }
 }
