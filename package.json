@@ -1,5 +1,5 @@
 {
-  "name": "microswagger",
+  "name": "microexpress",
   "version": "1.0.0",
   "description": "A lightweight Node.js microservice framework that auto-generates routes from Swagger specs, injects handlers, and provides built-in logging, error handling, and JWT-based authorization.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nvharish/microswagger.git"
+    "url": "git+https://github.com/nvharish/microexpress.git"
   },
   "keywords": [
     "nodejs",
@@ -36,9 +36,9 @@
   "author": "N V Harish <nv.harish@outlook.com> (https://nvharish.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nvharish/microswagger/issues"
+    "url": "https://github.com/nvharish/microexpress/issues"
   },
-  "homepage": "https://github.com/nvharish/microswagger#readme",
+  "homepage": "https://github.com/nvharish/microexpress#readme",
   "dependencies": {
     "express": "^4.21.2",
     "js-yaml": "^4.1.0",
@@ -50,6 +50,7 @@
   "devDependencies": {
     "chai": "^5.2.0",
     "eslint": "^9.20.1",
+    "globals": "^15.15.0",
     "mocha": "^11.1.0",
     "nodemon": "^3.1.9"
   }

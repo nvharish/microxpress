@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: My Microservice
+  version: 1.0.0
+
+paths:
+  /users:
+    get:
+      summary: Get all users
+      x-handler: userHandler.getAllUsers
+      responses:
+        '200':
+          description: List of users
